@@ -1,0 +1,38 @@
+speeds = nil
+local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
+local win = DiscordLib:Window("Creator: Lake#8800")
+local serv = win:Server("Innovation Inc", "")
+local main = serv:Channel("Teleport")
+
+
+main:Button("Reactor", function()
+game:GetService("Workspace")[game.Players.LocalPlayer.Name].HumanoidRootPart.CFrame = CFrame.new(-185.812729, 84.3888855, -1308.07202, 0.839703619, -2.63460986e-08, 0.543044925, 6.86975099e-08, 1, -5.77106078e-08, -0.543044925, 8.57656417e-08, 0.839703619)
+end)
+
+main:Button("Cockpit", function()
+game:GetService("Workspace")[game.Players.LocalPlayer.Name].HumanoidRootPart.CFrame = CFrame.new(-188.815384, 106.77887, -610.881409, -0.999849975, -1.16760679e-09, -0.0173213799, -9.26088317e-10, 1, -1.39513983e-08, 0.0173213799, -1.39332643e-08, -0.999849975)
+end)
+
+main:Button("Capsules", function()
+game:GetService("Workspace")[game.Players.LocalPlayer.Name].HumanoidRootPart.CFrame = CFrame.new(-183.108582, 82.3328857, -1106.37769, 0.999764919, 2.35974196e-09, 0.0216831397, -4.73553863e-09, 1, 1.09517508e-07, -0.0216831397, -1.09594446e-07, 0.999764919)
+end)
+
+main:Button("Badroom", function()
+game:GetService("Workspace")[game.Players.LocalPlayer.Name].HumanoidRootPart.CFrame = CFrame.new(-176.273163, 127.778908, -982.662354, 0.999053895, -7.36563806e-08, -0.0434891172, 7.44409192e-08, 1, 1.64204081e-08, 0.0434891172, -1.96422434e-08, 0.999053895)	
+end)
+
+main:Button("Compartment Space", function()
+game:GetService("Workspace")[game.Players.LocalPlayer.Name].HumanoidRootPart.CFrame = CFrame.new(-214.917526, 145.808868, -1239.96912, 0.983621657, 2.26703349e-08, -0.180245519, -1.86096702e-08, 1, 2.42195224e-08, 0.180245519, -2.04685371e-08, 0.983621657)
+end)
+
+main:Button("Hyper skinny seats", function()
+game:GetService("Workspace")[game.Players.LocalPlayer.Name].HumanoidRootPart.CFrame = CFrame.new(-190.561295, 107.543694, -1107.60583, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+end)
+
+main:Button("Dining room", function()
+game:GetService("Workspace")[game.Players.LocalPlayer.Name].HumanoidRootPart.CFrame = CFrame.new(-212.894791, 68.4314499, -657.318542, -0.486432612, 1.12698242e-08, -0.873718083, 3.54302099e-09, 1, 1.09261595e-08, 0.873718083, 2.21923901e-09, -0.486432612)
+end)
+
+main:Button("Disinfection", function()
+game:GetService("Workspace")[game.Players.LocalPlayer.Name].HumanoidRootPart.CFrame = CFrame.new(-182.559738, 82.2999725, -992.899048, 0.999894917, 1.46890384e-08, 0.0144957062, -1.32416087e-08, 1, -9.99483021e-08, -0.0144957062, 9.97458542e-08, 0.999894917)
+end)
