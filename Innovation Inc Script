@@ -36,3 +36,7 @@ end)
 main:Button("Disinfection", function()
 game:GetService("Workspace")[game.Players.LocalPlayer.Name].HumanoidRootPart.CFrame = CFrame.new(-182.559738, 82.2999725, -992.899048, 0.999894917, 1.46890384e-08, 0.0144957062, -1.32416087e-08, 1, -9.99483021e-08, -0.0144957062, 9.97458542e-08, 0.999894917)
 end)
+
+main:Button("Security Office", function()
+game:GetService("Workspace")[game.Players.LocalPlayer.Name].HumanoidRootPart.CFrame = CFrame.new(-193.65303, 88.8076401, -1205.22302, 0.999910593, -8.09914269e-08, 0.0133736776, 8.15579142e-08, 1, -4.1813184e-08, -0.0133736776, 4.29001723e-08, 0.999910593)
+end)
