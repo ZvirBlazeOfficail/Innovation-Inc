@@ -1,6 +1,6 @@
 speeds = nil
 local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
-local win = DiscordLib:Window("Creator: Lake#8800")
+local win = DiscordLib:Window("Creator: Lake#8800 | MakerScript")
 local serv = win:Server("Innovation Inc", "")
 local main = serv:Channel("Teleport")
 
