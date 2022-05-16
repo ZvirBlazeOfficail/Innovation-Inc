@@ -1,8 +1,17 @@
+--Library
 speeds = nil
 local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
 local win = DiscordLib:Window("Creator: Lake#8800 | MakerScript")
 local serv = win:Server("Innovation Inc", "")
 local main = serv:Channel("Teleport")
+local fun = serv:Channel("Function")
+--End Library
+
+--Script Local
+local A1 = -99999
+local A2 = "blackorange"
+local Event = game:GetService("ReplicatedStorage").TakeMoney
+-- End Script Local
 
 
 main:Button("Reactor", function()
@@ -39,4 +48,8 @@ end)
 
 main:Button("Security Office", function()
 game:GetService("Workspace")[game.Players.LocalPlayer.Name].HumanoidRootPart.CFrame = CFrame.new(-193.65303, 88.8076401, -1205.22302, 0.999910593, -8.09914269e-08, 0.0133736776, 8.15579142e-08, 1, -4.1813184e-08, -0.0133736776, 4.29001723e-08, 0.999910593)
+end)
+
+fun:Button("infinity Money", function()
+Event:FireServer(A1, A2)
 end)
